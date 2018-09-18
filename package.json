@@ -1,6 +1,6 @@
 {
-  "name": "e-authorization",
-  "version": "0.0.1",
+  "name": "@evolvus/e-authorization",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -10,15 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@evolvus/evolvus-user": "^1.1.6",
     "body-parser": "^1.18.2",
     "debug": "^3.1.0",
-    "evolvus-application": "^0.1.1",
-    "evolvus-entity": "^0.1.2",
-    "evolvus-menu": "^1.0.8",
-    "evolvus-role": "^0.1.4",
-    "evolvus-user": "0.0.2",
     "express": "^4.16.3",
-    "mongoose": "^5.1.5"
+    "mongoose": "^5.2.15"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -30,8 +26,5 @@
     "grunt-mocha-test": "^0.13.3",
     "mocha": "^5.1.1",
     "randomstring": "^1.1.5"
-  },
-  "publishConfig": {
-    "registry": "http://10.10.69.203:8081/repository/npm-private/"
   }
 }
