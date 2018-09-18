@@ -29,3 +29,17 @@ Request Body:<br/>
 }<br/>
  </code>
 
+### Authorization API for IndusCollect
+----------------------------------------
+Method: 'POST'<br/>
+Request URL: 'http://localhost:8088/api/user/authorize'<br/>
+Content-Type:'application/json'<br/>
+Request Body:<br/>
+<code>
+{<br/>
+	"userId":"name",<br/>
+	"corporateId":"code",<br/>
+	"role":"code",<br/>
+}<br/>
+ </code>
+
