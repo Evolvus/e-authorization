@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@evolvus/evolvus-user": "^1.1.6",
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "debug": "^3.1.0",
     "express": "^4.16.3",
