@@ -10,8 +10,8 @@ var timeOut = process.env.TIME_OUT || 5000;
 const authCredentials = ["userId", "corporateId", "roleId"];
 
 var instance = axios.create({
-  baseURL: timeOut,
-  timeout: 2000
+  baseURL: corporateURL,
+  timeout: timeOut
 });
 
 module.exports = (router) => {
