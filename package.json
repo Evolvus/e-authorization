@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@evolvus/evolvus-mongo-dao": "^1.0.1",
     "@evolvus/evolvus-user": "^1.1.12",
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",

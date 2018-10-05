@@ -1,4 +1,4 @@
-const debug = require("debug")("e-authorization:routes:api:user");
+const debug = require("debug")("evolvus-e-authorization:routes:api:user");
 const _ = require("lodash");
 const user = require("@evolvus/evolvus-user");
 const axios = require("axios");
