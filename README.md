@@ -37,9 +37,7 @@ Content-Type:'application/json'<br/>
 Request Body:<br/>
 <code>
 {<br/>
-	"userId":"name",<br/>
-	"corporateId":"code",<br/>
-	"role":"code",<br/>
+	"userId":"name",<br/>	 
 }<br/>
  </code>
 
